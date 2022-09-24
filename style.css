@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:  #cffafe;
+  }
+  .container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid #e7f0ff; */
+    border-radius: 2em;
+    align-items: center;
+    align-content: center;
+    margin: 2em auto;
+    padding-top: 3em;
+    background-color:  #67e8f9;
+  }
+  input {
+    display: block;
+    padding: 0.5em;
+    width: 50%;
+    margin: auto;
+  }
+  #birthday-input {
+    margin-top: 2em;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    border-radius: 0.4em;
+  }
+  #heading {
+    font-size: 2rem;
+    text-align: center;
+    width: 98%;
+  }
+  
+  #show-btn {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    padding: 0.7em 2em;
+    border-radius: 0.4em;
+    margin: 1em auto;
+    cursor: pointer;
+  }
+  
+  p#show-output {
+    /* border: 2 px solid red; */
+    width: 99%;
+    /* height: 20%; */
+    padding: 1em;
+    margin: 0.5em;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* @media screen and (min-width: 480px) */
+  @media screen and (max-width: 501px) {
+    .container {
+      width: 90%;
+    }
+  }
